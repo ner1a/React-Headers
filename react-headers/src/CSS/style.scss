@@ -1,0 +1,55 @@
+.user-card{
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    &__info{
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}
+.nameAndPicture{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.isim{
+    margin: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 70px;
+    max-width: 100%;
+    margin: auto;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    
+    &__navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &__link{
+        margin-right: 15px;
+    }
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 50px;
+}
